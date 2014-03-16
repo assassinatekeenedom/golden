@@ -1,0 +1,1 @@
+java -classpath log4j.jar org.apache.log4j.net.SimpleSocketServer 13370 log4j-server.xml
