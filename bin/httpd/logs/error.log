@@ -1286,3 +1286,68 @@ Child 3036: Child process is running
 [Sat Mar 15 10:17:20 2014] [notice] Child 3036: All worker threads have exited.
 [Sat Mar 15 10:17:20 2014] [notice] Child 3036: Child process is exiting
 [Sat Mar 15 10:17:20 2014] [notice] Parent: Child process exited successfully.
+[Sat Mar 15 20:50:07 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Sat Mar 15 20:50:07 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Sat Mar 15 20:50:07 2014] [notice] Parent: Created child process 5696
+Apache server shutdown initiated...
+Child 5696: Child process is running
+[Sat Mar 15 20:50:07 2014] [notice] Child 5696: Acquired the start mutex.
+[Sat Mar 15 20:50:07 2014] [notice] Child 5696: Starting 250 worker threads.
+[Sat Mar 15 20:50:16 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 15 20:50:16 2014] [notice] Child 5696: Exit event signaled. Child process is ending.
+[Sat Mar 15 20:50:17 2014] [notice] Child 5696: Released the start mutex
+[Sat Mar 15 20:50:18 2014] [notice] Child 5696: All worker threads have exited.
+[Sat Mar 15 20:50:18 2014] [notice] Child 5696: Child process is exiting
+[Sat Mar 15 20:50:18 2014] [notice] Parent: Child process exited successfully.
+[Sat Mar 15 20:50:24 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Sat Mar 15 20:50:24 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Sat Mar 15 20:50:24 2014] [notice] Parent: Created child process 1852
+Apache server shutdown initiated...
+Child 1852: Child process is running
+[Sat Mar 15 20:50:24 2014] [notice] Child 1852: Acquired the start mutex.
+[Sat Mar 15 20:50:24 2014] [notice] Child 1852: Starting 250 worker threads.
+[Sat Mar 15 20:50:30 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 15 20:50:30 2014] [notice] Child 1852: Exit event signaled. Child process is ending.
+[Sat Mar 15 20:50:31 2014] [notice] Child 1852: Released the start mutex
+[Sat Mar 15 20:50:32 2014] [notice] Child 1852: All worker threads have exited.
+[Sat Mar 15 20:50:32 2014] [notice] Child 1852: Child process is exiting
+[Sat Mar 15 20:50:32 2014] [notice] Parent: Child process exited successfully.
+[Sat Mar 15 20:51:58 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Sat Mar 15 20:51:58 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Sat Mar 15 20:51:58 2014] [notice] Parent: Created child process 5152
+Apache server shutdown initiated...
+Child 5152: Child process is running
+[Sat Mar 15 20:51:58 2014] [notice] Child 5152: Acquired the start mutex.
+[Sat Mar 15 20:51:58 2014] [notice] Child 5152: Starting 250 worker threads.
+[Sat Mar 15 20:52:02 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 15 20:52:02 2014] [notice] Child 5152: Exit event signaled. Child process is ending.
+[Sat Mar 15 20:52:03 2014] [notice] Child 5152: Released the start mutex
+[Sat Mar 15 20:52:04 2014] [notice] Child 5152: All worker threads have exited.
+[Sat Mar 15 20:52:04 2014] [notice] Child 5152: Child process is exiting
+[Sat Mar 15 20:52:04 2014] [notice] Parent: Child process exited successfully.
+[Sat Mar 15 20:54:53 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Sat Mar 15 20:54:53 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Sat Mar 15 20:54:53 2014] [notice] Parent: Created child process 3348
+Apache server shutdown initiated...
+Child 3348: Child process is running
+[Sat Mar 15 20:54:53 2014] [notice] Child 3348: Acquired the start mutex.
+[Sat Mar 15 20:54:53 2014] [notice] Child 3348: Starting 250 worker threads.
+[Sat Mar 15 20:54:56 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 15 20:54:56 2014] [notice] Child 3348: Exit event signaled. Child process is ending.
+[Sat Mar 15 20:54:57 2014] [notice] Child 3348: Released the start mutex
+[Sat Mar 15 20:54:58 2014] [notice] Child 3348: All worker threads have exited.
+[Sat Mar 15 20:54:58 2014] [notice] Child 3348: Child process is exiting
+[Sat Mar 15 20:54:58 2014] [notice] Parent: Child process exited successfully.
+[Sat Mar 15 20:59:21 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Sat Mar 15 20:59:21 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Sat Mar 15 20:59:21 2014] [notice] Parent: Created child process 5692
+Apache server shutdown initiated...
+Child 5692: Child process is running
+[Sat Mar 15 20:59:21 2014] [notice] Child 5692: Acquired the start mutex.
+[Sat Mar 15 20:59:21 2014] [notice] Child 5692: Starting 250 worker threads.
+[Sat Mar 15 21:29:04 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 15 21:29:04 2014] [notice] Child 5692: Exit event signaled. Child process is ending.
+[Sat Mar 15 21:29:05 2014] [notice] Child 5692: Released the start mutex
+[Sat Mar 15 21:29:06 2014] [notice] Child 5692: All worker threads have exited.
+[Sat Mar 15 21:29:06 2014] [notice] Child 5692: Child process is exiting
+[Sat Mar 15 21:29:07 2014] [notice] Parent: Child process exited successfully.

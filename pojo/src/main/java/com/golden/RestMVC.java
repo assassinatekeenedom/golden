@@ -7,9 +7,12 @@ import javax.ws.rs.Path;
 import javax.ws.rs.GET;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import org.apache.log4j.Logger;
 
 @Path("apache")
 public class RestMVC {
+
+    static Logger JSONP = Logger.getLogger(RestMVC.class);
 
     public static Map session = new HashMap();
 
@@ -17,7 +20,7 @@ public class RestMVC {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String startApache() throws IOException {
-        JSONPLogger.APACHE.start(session);
+        SystemProcess.APACHE.start(session);
         return "<html><head><title>..//add dynamic code here</title></head><body style='background-color:white;'></body></html>";
     }
 
@@ -25,12 +28,13 @@ public class RestMVC {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String restartApache() throws IOException {
-        JSONPLogger.APACHE.restart(session);
+        SystemProcess.APACHE.restart(session);
         return "<html><head><title>RESTART..//add dynamic code here</title></head><body style='background-color:black;'></body></html>";
     }
 
     public static void main(String[] args) throws Exception {
-        Register.HTTP.host();
+        JSONP.debug("JSON Debug");;
+        Gateway.HTTP.host();
         FileAppender.APACHE.append();
     }
 }

@@ -12,7 +12,7 @@ import javax.ws.rs.core.Application;
 import javax.ws.rs.core.UriBuilder;
 import javax.ws.rs.ext.RuntimeDelegate;
 
-public enum Register {
+public enum Gateway {
 
     HTTP("localhost", 8080);
 
@@ -35,13 +35,13 @@ public enum Register {
     private final String domain;
     private final int port;
 
-    Register(String domain, int port) {
+    Gateway(String domain, int port) {
         this.domain = domain;
         this.port = port;
     }
 
     public void host() throws IOException {
-        Register.host(this.domain, this.port);
+        Gateway.host(this.domain, this.port);
     }
 
     public static HttpServer host(String domain, int port) {

@@ -3,7 +3,7 @@
 
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
     <appender name="script" class="org.apache.log4j.RollingFileAppender"> 
-        <param name="File" value="///C:/connecture2.0/log4j/jsonp.js"/>
+        <param name="File" value="///C:/golden/www/js/jsonp/server.js"/>
         <param name="MaxFileSize" value="100KB"/> 
         <param name="MaxBackupIndex" value="100000"/> 
         <param name="append" value="true"/> 
@@ -16,15 +16,6 @@
             <param name="ConversionPattern" value="jsonp({&#34;json&#34;:[&#34;%d{EEE, dd MMM yyyy HH:mm:ss Z}&#34;,&#34;%t&#34;,&#34;%p&#34;,&#34;%c&#34;,&#34;%m&#34;,&#34;%r&#34;]});%n"/> 
         </layout>
     </appender>
-    <logger name="com">
-        <level value="FATAL"/>
-    </logger>
-    <logger name="org">
-        <level value="FATAL"/>
-    </logger>
-    <logger name="com.connecture">
-        <level value="DEBUG"/>
-    </logger>
     <root> 
         <priority value ="DEBUG" /> 
         <appender-ref ref="script" /> 
