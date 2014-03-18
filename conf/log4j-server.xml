@@ -28,17 +28,13 @@
     <category name="org.apache">
         <priority value="ERROR"/>
     </category>
-    <logger name="html.visitor">
+    <logger name="html.host">
         <level value="DEBUG"/>
         <appender-ref ref="html" /> 
     </logger>
-    <logger name="html.session">
+    <logger name="session.host">
         <level value="DEBUG"/>
         <appender-ref ref="script" /> 
-    </logger>
-    <logger name="html.rest">
-        <level value="DEBUG"/>
-        <appender-ref ref="console" /> 
     </logger>
     <root>
         <priority value ="DEBUG" /> 

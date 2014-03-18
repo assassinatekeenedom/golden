@@ -29,12 +29,13 @@ public class Page extends Named {
     @Override
     public void commit() {
         this.setName("html");
-        this.script.commit();
-        this.body.commit();
+        this.title.commit();
         this.head.appendContent(this.title);
+        this.script.commit();
         this.head.appendContent(this.script);
         this.head.commit();
         this.appendContent(this.head);
+        this.body.commit();
         this.appendContent(this.body);
         super.commit();
     }

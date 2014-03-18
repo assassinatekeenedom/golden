@@ -1,10 +1,8 @@
 package html;
 
-import java.util.ArrayList;
-import java.util.List;
 import org.apache.log4j.Logger;
 
-public class Named extends ArrayList<Logger> implements Node, Visitor<Logger> {
+public class Named implements Node, Visitor<Logger> {
 
     private String name = "";
     private String content = "";
@@ -31,7 +29,6 @@ public class Named extends ArrayList<Logger> implements Node, Visitor<Logger> {
     @Override
     public void toString(Logger log) {
         log.debug(this.toString());
-        this.add(log);
     }
 
     @Override
@@ -52,10 +49,5 @@ public class Named extends ArrayList<Logger> implements Node, Visitor<Logger> {
         Named create = new Named();
         create.setName(name);
         return create;
-    }
-
-    @Override
-    public List<Logger> getVisitors() {
-        return this;
     }
 }

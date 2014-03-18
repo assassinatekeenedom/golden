@@ -5,13 +5,13 @@ import org.apache.log4j.Logger;
 
 public class IndexHTML {
 
-    private static final Logger html = Logger.getLogger(IndexHTML.class);
     private static final Page page = new Page();
 
-    {
+    static {
         page.getScript().setAttributes("type='text/javascript' src='js/jsonp.js'");
         page.getTitle().appendContent("Hello Nate!");
-        page.toString(html);
+        page.commit();
+        page.toString(Logger.getLogger(IndexHTML.class));
     }
 
     private IndexHTML() {
@@ -20,5 +20,4 @@ public class IndexHTML {
     public static String getHTML() {
         return page.toString();
     }
-
 }
