@@ -9,6 +9,18 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import org.apache.log4j.Logger;
 
+/**
+ *
+ * The root provides a mechanism for indeterminate HTML modeling.
+ * 
+ * e.g. <HTML></HTML> Templates.
+ *
+ * @author nate
+ * @param <a>
+ * @param <b>
+ * @param <c>
+ * @param <d>
+ */
 @Path("")
 public class Page<a, b, c, d> implements Node<a, b, c>, Visitor<Logger, d>, Gateway<Page> {
 

@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 public class JSONP implements Node<Logger, JSONP, Service>, Visitor<Logger, JSONP>, Gateway<JSONP> {
 
     /**
-     * Fitnesse Wiki
+     * Verify with JSONP callbacks through the Fitnesse Wiki
      */
     private static final Service service = Service.service;
 

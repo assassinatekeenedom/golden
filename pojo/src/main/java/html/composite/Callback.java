@@ -9,6 +9,16 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import org.apache.log4j.Logger;
 
+/**
+ *
+ * The root of this lies in the <script src=''> Asynchronous import of scripts.
+ *
+ * @author nate
+ * @param <a>
+ * @param <b>
+ * @param <c>
+ * @param <d>
+ */
 @Path("js")
 public class Callback<a, b, c, d> implements Node<a, b, c>, Visitor<Logger, d>, Gateway<Callback> {
 
