@@ -6,6 +6,10 @@ import html.Visitor;
 import html.composite.master.Service;
 import org.apache.log4j.Logger;
 
+/**
+ * Selenium
+ * @author nate
+ */
 public class HTML implements Node<Logger, HTML, Service>, Gateway<HTML>, Visitor<Logger, HTML> {
 
     private static final Service service = Service.service;
