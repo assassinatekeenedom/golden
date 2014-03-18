@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 
 public class IndexHTML {
 
-    private static final Page page = new Page();
+    private static final Page page = Page.instance();
 
     static {
         page.getScript().setAttributes("type='text/javascript' src='js/jsonp.js'");

@@ -9,7 +9,7 @@ public class Named implements Node, Visitor<Logger> {
     private String attributes = "";
     private String message = "";
 
-    public Named() {
+    private Named() {
     }
 
     public void setName(String name) {
