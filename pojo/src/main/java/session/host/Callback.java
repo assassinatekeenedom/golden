@@ -4,7 +4,7 @@ import html.Named;
 import html.Visitor;
 import org.apache.log4j.Logger;
 
-public class Callback extends Named implements Visitor<Logger> {
+public class Callback extends Named {
 
     private Callback() {
     }
