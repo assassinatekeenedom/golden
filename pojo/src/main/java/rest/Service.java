@@ -4,16 +4,19 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import javax.ws.rs.core.Application;
-import rest.service.Index;
 
 public class Service extends Application {
 
     private final Set<Class<?>> classes;
 
-    public Service() {
+    public Service(Class origin) {
         HashSet<Class<?>> c = new HashSet<>();
-        c.add(Index.class);
+        c.add(origin);
         classes = Collections.unmodifiableSet(c);
+    }
+    
+    public void init(){
+        
     }
 
     @Override

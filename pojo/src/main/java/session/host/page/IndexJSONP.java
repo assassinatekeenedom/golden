@@ -9,11 +9,14 @@ public class IndexJSONP {
 
     static {
 
+        callback.appendContent("var require=function(src){");
         callback.appendContent("var load = document.createElement('script');");
-        callback.appendContent("\nload.type = 'text/javascript';");
-        callback.appendContent("\nload.src = 'js/callback.js';");
-        callback.appendContent("\ndocument.head.appendChild(load);");
-        callback.appendContent("\ndocument.head.removeChild(load);");
+        callback.appendContent("load.type = 'text/javascript';");
+        callback.appendContent("load.src = src;");
+        callback.appendContent("document.head.appendChild(load);");
+        callback.appendContent("document.head.removeChild(load);");
+        callback.appendContent("};");
+        callback.appendContent("window.addEventListener('load',function(){require('load/discover.js');});");
         callback.commit();
         callback.toString(Logger.getLogger(IndexJSONP.class));
     }
