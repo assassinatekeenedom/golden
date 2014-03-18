@@ -1,4 +1,4 @@
-package html.composite.master.agent;
+package html.composite.master.agent.jsonp;
 
 import html.Gateway;
 import html.Node;
