@@ -8,8 +8,7 @@ public class Apache extends Service {
     private Process running;
 
     public static void main(String[] args) {
-        Service service = Service.service;
-        service.appendContent(Apache.class);
-        service.commit();
+        Service.service.appendContent(Apache.class);
+        Service.service.commit();
     }
 }
