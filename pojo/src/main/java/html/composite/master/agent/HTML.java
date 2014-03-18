@@ -3,7 +3,6 @@ package html.composite.master.agent;
 import html.Gateway;
 import html.Node;
 import html.Visitor;
-import static html.composite.Callback.callback;
 import html.composite.master.Service;
 import org.apache.log4j.Logger;
 
@@ -28,8 +27,8 @@ public class HTML implements Node<Logger, HTML, Service>, Gateway<HTML>, Visitor
 
     @Override
     public HTML toString(Logger log) {
-        callback.toString(Logger.getLogger(HTML.class));
-        callback.toString(log);
+        service.toString(Logger.getLogger(HTML.class));
+        service.toString(log);
         return this;
     }
 
