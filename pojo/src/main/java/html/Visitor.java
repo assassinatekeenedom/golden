@@ -1,7 +1,7 @@
 package html;
 
-public interface Visitor<of> {
+public interface Visitor<of,value> {
 
-    public void toString(of log);
+    public value toString(of log);
 
 }

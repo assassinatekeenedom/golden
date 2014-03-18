@@ -1,10 +1,10 @@
 package html;
 
-public interface Node {
+public interface Node<category, of, content> {
 
-    public void commit();
+    public content commit();
 
-    public void setAttributes(Object attribute);
+    public of setAttributes(Object attribute);
 
-    public void appendContent(Object content);
+    public category appendContent(Object content);
 }

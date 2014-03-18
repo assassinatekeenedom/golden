@@ -1408,6 +1408,13 @@ Child 3640: Child process is running
 [Tue Mar 18 10:18:00 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
 [Tue Mar 18 10:18:00 2014] [notice] Server built: Jun 28 2013 13:15:57
 [Tue Mar 18 10:18:00 2014] [notice] Parent: Created child process 7364
-[Tue Mar 18 10:18:00 2014] [notice] Child 7364: Child process is running
+Apache server shutdown initiated...
+Child 7364: Child process is running
 [Tue Mar 18 10:18:00 2014] [notice] Child 7364: Acquired the start mutex.
 [Tue Mar 18 10:18:00 2014] [notice] Child 7364: Starting 250 worker threads.
+[Tue Mar 18 12:29:22 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 18 12:29:22 2014] [notice] Child 7364: Exit event signaled. Child process is ending.
+[Tue Mar 18 12:29:23 2014] [notice] Child 7364: Released the start mutex
+[Tue Mar 18 12:29:24 2014] [notice] Child 7364: All worker threads have exited.
+[Tue Mar 18 12:29:24 2014] [notice] Child 7364: Child process is exiting
+[Tue Mar 18 12:29:24 2014] [notice] Parent: Child process exited successfully.
