@@ -76,11 +76,7 @@ public class RESTful<a, b, c, d> implements Node<String, String, String>, Visito
     @Produces(MediaType.TEXT_HTML)
     @Override
     public String commit() {
-        if (this.name.length() > 0) {
-            this.message = "<" + this.name + " " + this.attributes + ">" + this.content + "</" + this.name + ">";
-            return message;
-        }
-        this.message = this.content;
+        this.message = this.name.isEmpty() ? "<" + this.name + " " + this.attributes + ">" + this.content + "</" + this.name + ">" : this.content;
         return message;
     }
 
