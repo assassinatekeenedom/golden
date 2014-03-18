@@ -1,0 +1,1 @@
+start c:\golden\conf\server.bat

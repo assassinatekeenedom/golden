@@ -1,1 +1,0 @@
-call svn co %1 %2

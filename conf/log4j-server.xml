@@ -2,23 +2,46 @@
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
-    <appender name="script" class="org.apache.log4j.RollingFileAppender"> 
-        <param name="File" value="///C:/golden/www/js/jsonp/server.js"/>
-        <param name="MaxFileSize" value="100KB"/> 
+    <appender name="html" class="org.apache.log4j.RollingFileAppender"> 
+        <param name="File" value="///C:/golden/virtual/index.html"/>
+        <param name="MaxFileSize" value="1000KB"/> 
         <param name="MaxBackupIndex" value="100000"/> 
-        <param name="append" value="true"/> 
+        <param name="append" value="false"/>
         <layout class="org.apache.log4j.PatternLayout"> 
-            <param name="ConversionPattern" value="jsonp({&#34;json&#34;:[&#34;%d{EEE, dd MMM yyyy HH:mm:ss Z}&#34;,&#34;%t&#34;,&#34;%p&#34;,&#34;%c&#34;,&#34;%m&#34;,&#34;%r&#34;]});%n"/> 
+            <param name="ConversionPattern" value="%m%n"/>            
         </layout> 
-    </appender> 
+    </appender>
+    <appender name="script" class="org.apache.log4j.RollingFileAppender"> 
+        <param name="File" value="///C:/golden/virtual/js/jsonp.js"/>
+        <param name="MaxFileSize" value="1000KB"/> 
+        <param name="MaxBackupIndex" value="100000"/> 
+        <param name="append" value="false"/>
+        <layout class="org.apache.log4j.PatternLayout"> 
+            <param name="ConversionPattern" value="%m%n"/>
+        </layout> 
+    </appender>
     <appender name="console" class="org.apache.log4j.ConsoleAppender"> 
         <layout class="org.apache.log4j.PatternLayout"> 
-            <param name="ConversionPattern" value="jsonp({&#34;json&#34;:[&#34;%d{EEE, dd MMM yyyy HH:mm:ss Z}&#34;,&#34;%t&#34;,&#34;%p&#34;,&#34;%c&#34;,&#34;%m&#34;,&#34;%r&#34;]});%n"/> 
+            <param name="ConversionPattern" value="%m%n"/>
         </layout>
     </appender>
-    <root> 
-        <priority value ="DEBUG" /> 
+    <category name="org.apache">
+        <priority value="ERROR"/>
+    </category>
+    <logger name="html.visitor">
+        <level value="DEBUG"/>
+        <appender-ref ref="html" /> 
+    </logger>
+    <logger name="html.session">
+        <level value="DEBUG"/>
         <appender-ref ref="script" /> 
+    </logger>
+    <logger name="html.rest">
+        <level value="DEBUG"/>
         <appender-ref ref="console" /> 
+    </logger>
+    <root>
+        <priority value ="DEBUG" /> 
+        <appender-ref ref="console" />
     </root>
 </log4j:configuration>
