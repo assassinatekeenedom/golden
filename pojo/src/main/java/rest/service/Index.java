@@ -36,6 +36,13 @@ public class Index {
         return jsonp;
     }
 
+    @Path("js/callback.js")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String jsonp() throws IOException {
+        return "alert('very dynamic!')";
+    }
+
     public static HttpServer host(String domain, int port) {
         try {
             URI uri = UriBuilder.fromUri("http://" + domain + "/").port(port).build();
