@@ -1,0 +1,1 @@
+start C:\golden\service\apache\meta\bin\Apache.exe

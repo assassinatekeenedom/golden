@@ -1,0 +1,1 @@
+start C:\golden\conf\selenium\servers.bat

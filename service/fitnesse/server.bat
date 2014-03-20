@@ -1,0 +1,1 @@
+java -jar  c:\golden\service\fitnesse\lib\fitnesse-standalone.jar

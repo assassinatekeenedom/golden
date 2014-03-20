@@ -1,0 +1,1 @@
+java -classpath c:\golden\service\log4j\lib\log4j.jar org.apache.log4j.net.SimpleSocketServer 13370 c:\golden\service\log4j\conf\log4j-server.xml

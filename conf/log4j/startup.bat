@@ -1,1 +1,0 @@
-start c:\golden\conf\log4j\server.bat

@@ -1,0 +1,1 @@
+start c:\golden\service\fitnesse\server.bat
