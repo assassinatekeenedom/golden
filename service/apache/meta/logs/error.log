@@ -1860,3 +1860,282 @@ Child 10020: Child process is running
 [Thu Mar 20 04:23:56 2014] [notice] Child 10020: All worker threads have exited.
 [Thu Mar 20 04:23:56 2014] [notice] Child 10020: Child process is exiting
 [Thu Mar 20 04:23:56 2014] [notice] Parent: Child process exited successfully.
+[Thu Mar 20 04:46:37 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Thu Mar 20 04:46:37 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Thu Mar 20 04:46:37 2014] [notice] Parent: Created child process 10004
+Apache server shutdown initiated...
+Child 10004: Child process is running
+[Thu Mar 20 04:46:37 2014] [notice] Child 10004: Acquired the start mutex.
+[Thu Mar 20 04:46:37 2014] [notice] Child 10004: Starting 250 worker threads.
+[Thu Mar 20 04:46:38 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 20 04:46:38 2014] [notice] Child 10004: Exit event signaled. Child process is ending.
+[Thu Mar 20 04:46:39 2014] [notice] Child 10004: Released the start mutex
+[Thu Mar 20 04:46:40 2014] [notice] Child 10004: All worker threads have exited.
+[Thu Mar 20 04:46:40 2014] [notice] Child 10004: Child process is exiting
+[Thu Mar 20 04:46:40 2014] [notice] Parent: Child process exited successfully.
+[Thu Mar 20 04:49:19 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Thu Mar 20 04:49:19 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Thu Mar 20 04:49:19 2014] [notice] Parent: Created child process 1116
+Apache server shutdown initiated...
+Child 1116: Child process is running
+[Thu Mar 20 04:49:19 2014] [notice] Child 1116: Acquired the start mutex.
+[Thu Mar 20 04:49:19 2014] [notice] Child 1116: Starting 250 worker threads.
+[Thu Mar 20 04:49:21 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 20 04:49:21 2014] [notice] Child 1116: Exit event signaled. Child process is ending.
+[Thu Mar 20 04:49:22 2014] [notice] Child 1116: Released the start mutex
+[Thu Mar 20 04:49:23 2014] [notice] Child 1116: All worker threads have exited.
+[Thu Mar 20 04:49:23 2014] [notice] Child 1116: Child process is exiting
+[Thu Mar 20 04:49:23 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 14:34:47 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 14:34:47 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 14:34:47 2014] [notice] Parent: Created child process 10064
+Apache server shutdown initiated...
+Child 10064: Child process is running
+[Fri Mar 21 14:34:47 2014] [notice] Child 10064: Acquired the start mutex.
+[Fri Mar 21 14:34:47 2014] [notice] Child 10064: Starting 250 worker threads.
+[Fri Mar 21 14:34:52 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 14:34:52 2014] [notice] Child 10064: Exit event signaled. Child process is ending.
+[Fri Mar 21 14:34:53 2014] [notice] Child 10064: Released the start mutex
+[Fri Mar 21 14:34:54 2014] [notice] Child 10064: All worker threads have exited.
+[Fri Mar 21 14:34:54 2014] [notice] Child 10064: Child process is exiting
+[Fri Mar 21 14:34:54 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 15:50:46 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 15:50:46 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 15:50:46 2014] [notice] Parent: Created child process 6636
+Apache server shutdown initiated...
+Child 6636: Child process is running
+[Fri Mar 21 15:50:46 2014] [notice] Child 6636: Acquired the start mutex.
+[Fri Mar 21 15:50:46 2014] [notice] Child 6636: Starting 250 worker threads.
+[Fri Mar 21 15:50:56 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 15:50:56 2014] [notice] Child 6636: Exit event signaled. Child process is ending.
+[Fri Mar 21 15:50:57 2014] [notice] Child 6636: Released the start mutex
+[Fri Mar 21 15:50:58 2014] [notice] Child 6636: All worker threads have exited.
+[Fri Mar 21 15:50:58 2014] [notice] Child 6636: Child process is exiting
+[Fri Mar 21 15:50:58 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 15:53:52 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 15:53:52 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 15:53:52 2014] [notice] Parent: Created child process 2920
+Apache server shutdown initiated...
+Child 2920: Child process is running
+[Fri Mar 21 15:53:52 2014] [notice] Child 2920: Acquired the start mutex.
+[Fri Mar 21 15:53:52 2014] [notice] Child 2920: Starting 250 worker threads.
+[Fri Mar 21 15:54:31 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 15:54:31 2014] [notice] Child 2920: Exit event signaled. Child process is ending.
+[Fri Mar 21 15:54:32 2014] [notice] Child 2920: Released the start mutex
+[Fri Mar 21 15:54:33 2014] [notice] Child 2920: All worker threads have exited.
+[Fri Mar 21 15:54:33 2014] [notice] Child 2920: Child process is exiting
+[Fri Mar 21 15:54:33 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 15:55:26 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 15:55:26 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 15:55:26 2014] [notice] Parent: Created child process 10088
+Apache server shutdown initiated...
+Child 10088: Child process is running
+[Fri Mar 21 15:55:26 2014] [notice] Child 10088: Acquired the start mutex.
+[Fri Mar 21 15:55:26 2014] [notice] Child 10088: Starting 250 worker threads.
+[Fri Mar 21 15:57:12 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 15:57:12 2014] [notice] Child 10088: Exit event signaled. Child process is ending.
+[Fri Mar 21 15:57:13 2014] [notice] Child 10088: Released the start mutex
+[Fri Mar 21 15:57:14 2014] [notice] Child 10088: All worker threads have exited.
+[Fri Mar 21 15:57:14 2014] [notice] Child 10088: Child process is exiting
+[Fri Mar 21 15:57:14 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 15:57:56 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 15:57:56 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 15:57:56 2014] [notice] Parent: Created child process 7528
+Apache server shutdown initiated...
+Child 7528: Child process is running
+[Fri Mar 21 15:57:56 2014] [notice] Child 7528: Acquired the start mutex.
+[Fri Mar 21 15:57:56 2014] [notice] Child 7528: Starting 250 worker threads.
+[Fri Mar 21 15:58:00 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 15:58:00 2014] [notice] Child 7528: Exit event signaled. Child process is ending.
+[Fri Mar 21 15:58:01 2014] [notice] Child 7528: Released the start mutex
+[Fri Mar 21 15:58:02 2014] [notice] Child 7528: All worker threads have exited.
+[Fri Mar 21 15:58:02 2014] [notice] Child 7528: Child process is exiting
+[Fri Mar 21 15:58:02 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 15:58:24 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 15:58:24 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 15:58:24 2014] [notice] Parent: Created child process 9708
+Apache server shutdown initiated...
+Child 9708: Child process is running
+[Fri Mar 21 15:58:24 2014] [notice] Child 9708: Acquired the start mutex.
+[Fri Mar 21 15:58:24 2014] [notice] Child 9708: Starting 250 worker threads.
+[Fri Mar 21 15:59:23 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 15:59:23 2014] [notice] Child 9708: Exit event signaled. Child process is ending.
+[Fri Mar 21 15:59:24 2014] [notice] Child 9708: Released the start mutex
+[Fri Mar 21 15:59:25 2014] [notice] Child 9708: All worker threads have exited.
+[Fri Mar 21 15:59:25 2014] [notice] Child 9708: Child process is exiting
+[Fri Mar 21 15:59:25 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 15:59:51 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 15:59:51 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 15:59:51 2014] [notice] Parent: Created child process 7504
+Apache server shutdown initiated...
+Child 7504: Child process is running
+[Fri Mar 21 15:59:51 2014] [notice] Child 7504: Acquired the start mutex.
+[Fri Mar 21 15:59:51 2014] [notice] Child 7504: Starting 250 worker threads.
+[Fri Mar 21 16:00:00 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 16:00:00 2014] [notice] Child 7504: Exit event signaled. Child process is ending.
+[Fri Mar 21 16:00:01 2014] [notice] Child 7504: Released the start mutex
+[Fri Mar 21 16:00:02 2014] [notice] Child 7504: All worker threads have exited.
+[Fri Mar 21 16:00:02 2014] [notice] Child 7504: Child process is exiting
+[Fri Mar 21 16:00:02 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 16:01:29 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 16:01:29 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 16:01:29 2014] [notice] Parent: Created child process 3096
+Apache server shutdown initiated...
+Child 3096: Child process is running
+[Fri Mar 21 16:01:29 2014] [notice] Child 3096: Acquired the start mutex.
+[Fri Mar 21 16:01:29 2014] [notice] Child 3096: Starting 250 worker threads.
+[Fri Mar 21 16:01:59 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 16:01:59 2014] [notice] Child 3096: Exit event signaled. Child process is ending.
+[Fri Mar 21 16:02:00 2014] [notice] Child 3096: Released the start mutex
+[Fri Mar 21 16:02:01 2014] [notice] Child 3096: All worker threads have exited.
+[Fri Mar 21 16:02:01 2014] [notice] Child 3096: Child process is exiting
+[Fri Mar 21 16:02:01 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 16:02:18 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 16:02:18 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 16:02:18 2014] [notice] Parent: Created child process 4584
+Apache server shutdown initiated...
+Child 4584: Child process is running
+[Fri Mar 21 16:02:18 2014] [notice] Child 4584: Acquired the start mutex.
+[Fri Mar 21 16:02:18 2014] [notice] Child 4584: Starting 250 worker threads.
+[Fri Mar 21 16:08:48 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 16:08:48 2014] [notice] Child 4584: Exit event signaled. Child process is ending.
+[Fri Mar 21 16:08:49 2014] [notice] Child 4584: Released the start mutex
+[Fri Mar 21 16:08:50 2014] [notice] Child 4584: All worker threads have exited.
+[Fri Mar 21 16:08:50 2014] [notice] Child 4584: Child process is exiting
+[Fri Mar 21 16:08:51 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 16:09:16 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 16:09:16 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 16:09:16 2014] [notice] Parent: Created child process 6300
+Apache server shutdown initiated...
+Child 6300: Child process is running
+[Fri Mar 21 16:09:16 2014] [notice] Child 6300: Acquired the start mutex.
+[Fri Mar 21 16:09:16 2014] [notice] Child 6300: Starting 250 worker threads.
+[Fri Mar 21 16:10:08 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 16:10:08 2014] [notice] Child 6300: Exit event signaled. Child process is ending.
+[Fri Mar 21 16:10:09 2014] [notice] Child 6300: Released the start mutex
+[Fri Mar 21 16:10:10 2014] [notice] Child 6300: All worker threads have exited.
+[Fri Mar 21 16:10:10 2014] [notice] Child 6300: Child process is exiting
+[Fri Mar 21 16:10:10 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 16:12:29 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 16:12:29 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 16:12:29 2014] [notice] Parent: Created child process 7516
+Apache server shutdown initiated...
+Child 7516: Child process is running
+[Fri Mar 21 16:12:30 2014] [notice] Child 7516: Acquired the start mutex.
+[Fri Mar 21 16:12:30 2014] [notice] Child 7516: Starting 250 worker threads.
+[Fri Mar 21 16:17:56 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 16:17:56 2014] [notice] Child 7516: Exit event signaled. Child process is ending.
+[Fri Mar 21 16:17:57 2014] [notice] Child 7516: Released the start mutex
+[Fri Mar 21 16:17:58 2014] [notice] Child 7516: All worker threads have exited.
+[Fri Mar 21 16:17:58 2014] [notice] Child 7516: Child process is exiting
+[Fri Mar 21 16:17:58 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 16:18:22 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 16:18:22 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 16:18:22 2014] [notice] Parent: Created child process 4304
+Apache server shutdown initiated...
+Child 4304: Child process is running
+[Fri Mar 21 16:18:22 2014] [notice] Child 4304: Acquired the start mutex.
+[Fri Mar 21 16:18:22 2014] [notice] Child 4304: Starting 250 worker threads.
+[Fri Mar 21 16:21:23 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 16:21:23 2014] [notice] Child 4304: Exit event signaled. Child process is ending.
+[Fri Mar 21 16:21:24 2014] [notice] Child 4304: Released the start mutex
+[Fri Mar 21 16:21:25 2014] [notice] Child 4304: All worker threads have exited.
+[Fri Mar 21 16:21:25 2014] [notice] Child 4304: Child process is exiting
+[Fri Mar 21 16:21:25 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 16:22:36 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 16:22:36 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 16:22:36 2014] [notice] Parent: Created child process 8844
+Apache server shutdown initiated...
+Child 8844: Child process is running
+[Fri Mar 21 16:22:36 2014] [notice] Child 8844: Acquired the start mutex.
+[Fri Mar 21 16:22:36 2014] [notice] Child 8844: Starting 250 worker threads.
+[Fri Mar 21 16:22:38 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 16:22:38 2014] [notice] Child 8844: Exit event signaled. Child process is ending.
+[Fri Mar 21 16:22:39 2014] [notice] Child 8844: Released the start mutex
+[Fri Mar 21 16:22:40 2014] [notice] Child 8844: All worker threads have exited.
+[Fri Mar 21 16:22:40 2014] [notice] Child 8844: Child process is exiting
+[Fri Mar 21 16:22:40 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 16:44:52 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 16:44:52 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 16:44:52 2014] [notice] Parent: Created child process 740
+Apache server shutdown initiated...
+Child 740: Child process is running
+[Fri Mar 21 16:44:52 2014] [notice] Child 740: Acquired the start mutex.
+[Fri Mar 21 16:44:52 2014] [notice] Child 740: Starting 250 worker threads.
+[Fri Mar 21 17:46:03 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 17:46:03 2014] [notice] Child 740: Exit event signaled. Child process is ending.
+[Fri Mar 21 17:46:04 2014] [notice] Child 740: Released the start mutex
+[Fri Mar 21 17:46:05 2014] [notice] Child 740: All worker threads have exited.
+[Fri Mar 21 17:46:05 2014] [notice] Child 740: Child process is exiting
+[Fri Mar 21 17:46:05 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 18:14:00 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 18:14:00 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 18:14:00 2014] [notice] Parent: Created child process 4024
+Apache server shutdown initiated...
+Child 4024: Child process is running
+[Fri Mar 21 18:14:00 2014] [notice] Child 4024: Acquired the start mutex.
+[Fri Mar 21 18:14:00 2014] [notice] Child 4024: Starting 250 worker threads.
+[Fri Mar 21 18:14:03 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 18:14:03 2014] [notice] Child 4024: Exit event signaled. Child process is ending.
+[Fri Mar 21 18:14:04 2014] [notice] Child 4024: Released the start mutex
+[Fri Mar 21 18:14:05 2014] [notice] Child 4024: All worker threads have exited.
+[Fri Mar 21 18:14:05 2014] [notice] Child 4024: Child process is exiting
+[Fri Mar 21 18:14:05 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 19:41:14 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 19:41:14 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 19:41:14 2014] [notice] Parent: Created child process 5988
+Apache server shutdown initiated...
+Child 5988: Child process is running
+[Fri Mar 21 19:41:14 2014] [notice] Child 5988: Acquired the start mutex.
+[Fri Mar 21 19:41:14 2014] [notice] Child 5988: Starting 250 worker threads.
+[Fri Mar 21 21:09:55 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 21:09:55 2014] [notice] Child 5988: Exit event signaled. Child process is ending.
+[Fri Mar 21 21:09:56 2014] [notice] Child 5988: Released the start mutex
+[Fri Mar 21 21:09:57 2014] [notice] Child 5988: All worker threads have exited.
+[Fri Mar 21 21:09:57 2014] [notice] Child 5988: Child process is exiting
+[Fri Mar 21 21:09:57 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 21:11:13 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 21:11:13 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 21:11:13 2014] [notice] Parent: Created child process 2920
+Apache server shutdown initiated...
+Child 2920: Child process is running
+[Fri Mar 21 21:11:13 2014] [notice] Child 2920: Acquired the start mutex.
+[Fri Mar 21 21:11:13 2014] [notice] Child 2920: Starting 250 worker threads.
+[Fri Mar 21 21:15:50 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 21:15:50 2014] [notice] Child 2920: Exit event signaled. Child process is ending.
+[Fri Mar 21 21:15:51 2014] [notice] Child 2920: Released the start mutex
+[Fri Mar 21 21:15:52 2014] [notice] Child 2920: All worker threads have exited.
+[Fri Mar 21 21:15:52 2014] [notice] Child 2920: Child process is exiting
+[Fri Mar 21 21:15:52 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 21:17:02 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 21:17:02 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 21:17:02 2014] [notice] Parent: Created child process 11096
+Apache server shutdown initiated...
+Child 11096: Child process is running
+[Fri Mar 21 21:17:02 2014] [notice] Child 11096: Acquired the start mutex.
+[Fri Mar 21 21:17:02 2014] [notice] Child 11096: Starting 250 worker threads.
+[Fri Mar 21 21:30:07 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 21:30:07 2014] [notice] Child 11096: Exit event signaled. Child process is ending.
+[Fri Mar 21 21:30:08 2014] [notice] Child 11096: Released the start mutex
+[Fri Mar 21 21:30:09 2014] [notice] Child 11096: All worker threads have exited.
+[Fri Mar 21 21:30:09 2014] [notice] Child 11096: Child process is exiting
+[Fri Mar 21 21:30:09 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 21:30:34 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 21:30:34 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 21:30:34 2014] [notice] Parent: Created child process 1796
+Apache server shutdown initiated...
+Child 1796: Child process is running
+[Fri Mar 21 21:30:34 2014] [notice] Child 1796: Acquired the start mutex.
+[Fri Mar 21 21:30:34 2014] [notice] Child 1796: Starting 250 worker threads.
+[Fri Mar 21 21:37:32 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 21 21:37:32 2014] [notice] Child 1796: Exit event signaled. Child process is ending.
+[Fri Mar 21 21:37:33 2014] [notice] Child 1796: Released the start mutex
+[Fri Mar 21 21:37:34 2014] [notice] Child 1796: All worker threads have exited.
+[Fri Mar 21 21:37:34 2014] [notice] Child 1796: Child process is exiting
+[Fri Mar 21 21:37:34 2014] [notice] Parent: Child process exited successfully.
+[Fri Mar 21 21:38:16 2014] [notice] Apache/2.0.65 (Win32) configured -- resuming normal operations
+[Fri Mar 21 21:38:16 2014] [notice] Server built: Jun 28 2013 13:15:57
+[Fri Mar 21 21:38:16 2014] [notice] Parent: Created child process 4656
+[Fri Mar 21 21:38:17 2014] [notice] Child 4656: Child process is running
+[Fri Mar 21 21:38:17 2014] [notice] Child 4656: Acquired the start mutex.
+[Fri Mar 21 21:38:17 2014] [notice] Child 4656: Starting 250 worker threads.

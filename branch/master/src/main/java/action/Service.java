@@ -1,4 +1,4 @@
-package local;
+package action;
 
 import java.io.IOException;
 
@@ -9,7 +9,8 @@ public enum Service {
     LOG4J("log4j"),
     GIT("git"),
     FITNESSE("fitnesse"),
-    MAVEN("mvn");
+    MAVEN("mvn"),
+    ALL("all");
 
     private final String service;
 
